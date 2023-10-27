@@ -1,9 +1,5 @@
-import { ButtonVariant } from '../components/Button.styles'
-
-export interface ButtonProps {
-  variant?: ButtonVariant
-}
-
-export interface ButtonContainerProps {
-  variant: ButtonVariant
+export interface Cycle {
+  id: string
+  task: string
+  minutesAmount: number
 }
